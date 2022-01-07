@@ -2,7 +2,7 @@ name: Deploy test pelican blog
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   build_job:
     name: Deploy blog
