@@ -28,12 +28,12 @@ jobs:
       - name: Run Pelican
         id: run-pelican
         run: |
-          pelican content --output docs --settings publishconf.py
+          pelican content --output docs --settings pelicanconf.py
       - name: Push to GitHub pages
         id: push-to-gh-pages
         run: |
-          git config --global user.name "my username"
-          git config --global user.email "myemail@provider.com"
+          git config --global user.name "oberron"
+          git config --global user.email "one.annum@gmail.com"
 
           git add docs/
           git commit --amend --no-edit
