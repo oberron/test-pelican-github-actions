@@ -1,0 +1,5 @@
+pelican ~= 4.6
+markdown
+typogrify
+bs4
+requests
