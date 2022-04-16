@@ -1,4 +1,7 @@
 # test-pelican-github-actions
+
+[![Deploy test pelican blog](https://github.com/oberron/test-pelican-github-actions/actions/workflows/build-blog.yml/badge.svg)](https://github.com/oberron/test-pelican-github-actions/actions/workflows/build-blog.yml)
+
 documents how to serve a pelican generated static site with github actions
 
 ## HOWTO
